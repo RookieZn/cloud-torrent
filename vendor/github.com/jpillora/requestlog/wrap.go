@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/andrew-d/go-termutil"
-	"github.com/jpillora/ansi"
-	"github.com/jpillora/sizestr"
+	"github.com/RookieZn/ansi"
+	"github.com/RookieZn/sizestr"
 )
 
 func init() {

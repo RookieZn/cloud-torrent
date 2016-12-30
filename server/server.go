@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jpillora/cloud-torrent/engine"
-	"github.com/jpillora/cloud-torrent/static"
-	"github.com/jpillora/go-realtime"
-	"github.com/jpillora/requestlog"
-	"github.com/jpillora/scraper/scraper"
+	"github.com/RookieZn/cloud-torrent/engine"
+	"github.com/RookieZn/cloud-torrent/static"
+	"github.com/RookieZn/go-realtime"
+	"github.com/RookieZn/requestlog"
+	"github.com/RookieZn/scraper/scraper"
 	"github.com/skratchdot/open-golang/open"
 )
 

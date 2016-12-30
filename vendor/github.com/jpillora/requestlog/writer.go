@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/jpillora/sizestr"
+	"github.com/RookieZn/sizestr"
 )
 
 func monitorWriter(w http.ResponseWriter, r *http.Request, opts *Options) *monitorableWriter {

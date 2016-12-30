@@ -1,6 +1,6 @@
 /* global window,WebSocket */
-// Realtime - v0.1.0 - https://github.com/jpillora/go-realtime
-// Jaime Pillora <dev@jpillora.com> - MIT Copyright 2015
+// Realtime - v0.1.0 - https://github.com/RookieZn/go-realtime
+// Jaime Pillora <dev@RookieZn.com> - MIT Copyright 2015
 (function(window, document) {
 
   if(!window.WebSocket)
