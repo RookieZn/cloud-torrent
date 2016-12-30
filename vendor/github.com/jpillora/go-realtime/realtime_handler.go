@@ -212,7 +212,7 @@ func (r *Handler) serveWS(conn *websocket.Conn) {
 		if err != nil {
 			break
 		}
-		//TODO(RookieZn): allow changing of subscriptions
+		//TODO(jpillora): allow changing of subscriptions
 	}
 	conn.Close() //ensure closed
 	u.Connected = false

@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/RookieZn/backoff"
+	"github.com/jpillora/backoff"
 )
 
-const searchConfigURL = "https://gist.githubusercontent.com/RookieZn/4d945b46b3025843b066adf3d685be6b/raw/scraper-config.json"
+const searchConfigURL = "https://gist.githubusercontent.com/jpillora/4d945b46b3025843b066adf3d685be6b/raw/scraper-config.json"
 
 func (s *Server) fetchSearchConfigLoop() {
 	b := backoff.Backoff{Max: 30 * time.Minute}
@@ -51,7 +51,7 @@ func (s *Server) fetchSearchConfig() error {
 	return nil
 }
 
-//see github.com/RookieZn/scraper for config specification
+//see github.com/jpillora/scraper for config specification
 //cloud-torrent uses "<id>-item" handlers
 var defaultSearchConfig = []byte(`{
 	"et": {
